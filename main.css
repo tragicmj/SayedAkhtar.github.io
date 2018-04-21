@@ -1,0 +1,287 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul ,li{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET ENDED */
+
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #090909;
+   
+}
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.brand{
+    padding: 25px;
+    margin-left: 20px;
+}
+
+.menu{
+    padding: 25px;
+    margin-left: 20px;
+    flex: 50%;
+    text-align: right;
+}
+
+/* ----- Showcase Wrappper -----*/
+.showcase{
+    height: 90vh;
+    background: url('img/ipad-textured.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.show{
+    top: 20%;
+}
+
+.container h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 4em;
+}
+
+.container h5{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+
+.button{
+    height: 60px;
+    width: 180px;
+    background-color: #078d56;
+    border: none;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/*----- short Info ---*/
+
+.info{
+    width: 100vw;
+    padding: 3.2rem 2rem;
+    text-align: center;
+}
+
+.green{
+    background: rgb(2,179,108);
+}
+
+.title{
+    width: 250px;
+    border: 2px solid #090909;
+    margin: auto;
+    padding: 12px 12px;
+    font-size: .9rem;
+    font-family: 'SourceSansPro-Bold',arial,sans-serif;
+    letter-spacing: 2px;
+}
+
+.info > .container{
+    padding-top: 70px;
+}
+
+/* Content Display */
+
+.row{
+    height: 88vh;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-y: hidden;
+}
+.one-half{
+    height: 100%;
+    margin: 0 !important;
+}
+
+.content{
+    width: 50%;
+    text-align: center;
+    padding-top:80px; 
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: left;
+    width: 50%;
+}
+.content p{
+    padding: 25px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    line-height: 2em;
+    font-weight: 550;
+}
+image{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.row-components{
+    height: 50vh;
+    width: 100%;
+    background-color: #099b5a;
+    display: flex;
+    flex: row;
+}
+
+.bdr{
+    margin: 0 !important;
+    padding-top: 60px;
+    border-right: 1px solid #08BD6B;
+    border-bottom: 1px solid #08BD6B;
+}
+
+/* Social icon Display */
+
+.blue{
+    background-color: #011324;
+}
+
+.fa{
+    color: #08BD6B;
+    font-size: 5em;
+    padding: 25px 60px;
+    margin: 0 auto;
+}
+
+.first{
+    padding-left: 0 !important;
+}
+
+.icon{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.review {
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #fff;
+    display: flex;
+    flex: row;
+}
+
+.info > .content{
+    padding-top:20px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+     
+}
+
+.bdr-right{
+    border-right: 1px dotted #888 !important;
+}
+
+.full{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex: row;
+}
+
+.profile{
+    display: block;
+    background-color: #011324;
+}
+  
+.contact{
+    padding-top: 40px;
+    width: 60%;
+    margin: auto;
+}
+form h5 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1em !important;
+    padding: 0px 0px !important;
+}
+form h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: .8em !important;
+    padding: 5px 0px !important;
+}
+
+input{
+    width: 100%;
+    border: 4px solid #222 !important;
+    border-radius: 0px !important;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    border: 4px solid #222;
+    border-radius: 0px;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 30px 0px; 
+}
