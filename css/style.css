@@ -88,7 +88,7 @@ body{
 .wrapper{
 	width: 80%;
 	overflow: hidden;
-	margin-left: 120px;
+	margin: 0 auto;
 }
 
 .main{
@@ -190,7 +190,7 @@ li a:hover{
 
 .profile__img{
 	display: inline-block;
- 	height: 10rem;
+ 	height: 7rem;
 }
 
 .profile__img img{
@@ -204,22 +204,22 @@ li a:hover{
 }
 
 /* ----- Media Queries --*/
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     .wrapper {
-        margin: 0 auto;
+		margin-left: 120px;
     }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 414px) {
 	.wrapper {
         margin: 0 auto;
 	}
-	
+
     .profile__img{
-		height: 7rem;
+		height: 10rem;
 	}
 
 	.profile::after,.profile::before{
-		width: 28%;
+		width: 30%;
 	}
 
 	.content h1{
@@ -234,10 +234,6 @@ li a:hover{
 		font-size: 0.55rem;
 	}
 
-	.social fa{
-		height: 35px;
-		width: 35px;
-	}
 }
 /* Animation of page */
 
