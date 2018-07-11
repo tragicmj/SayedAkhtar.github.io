@@ -202,6 +202,39 @@ li a:hover{
 	padding-bottom: 1rem;
 	margin-bottom: 2rem;
 }
+
+/* ----- Media Queries --*/
+@media only screen and(max-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+}
+@media only screen and(max-width: 414px) {
+    .profile__img{
+		height: 7rem;
+	}
+
+	.profile::after,.profile::before{
+		width: 28%;
+	}
+
+	.content h1{
+		font-size: 1.5rem;
+	}
+
+	.content p{
+		font-size: 0.75rem;
+	}
+
+	.content .link{
+		font-size: 0.55rem;
+	}
+
+	.social fa{
+		height: 35px;
+		width: 35px;
+	}
+}
 /* Animation of page */
 
 body{
