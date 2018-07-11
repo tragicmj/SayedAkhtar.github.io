@@ -209,7 +209,7 @@ li a:hover{
         margin: 0 auto;
     }
 }
-@media only screen and(max-width: 414px) {
+@media (max-width: 414px) {
     .profile__img{
 		height: 7rem;
 	}
