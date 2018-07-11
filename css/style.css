@@ -210,6 +210,10 @@ li a:hover{
     }
 }
 @media (max-width: 414px) {
+	.wrapper {
+        margin: 0 auto;
+	}
+	
     .profile__img{
 		height: 7rem;
 	}
